@@ -1,5 +1,9 @@
-import sum from './sum.js'
+import greet from './sum.js'
 
-test('adds 1 + 2 to equal 3', () => {
-  expect(sum(1, 2)).toBe(3)
+test('call user name', () => {
+  expect(greet("user",true)).toBe("hello user")
+})
+
+test('call not user name', () => {
+  expect(greet("user",false)).toBe(false)
 })

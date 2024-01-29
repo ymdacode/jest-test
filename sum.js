@@ -1,4 +1,9 @@
-const sum = (a, b) => {
-    return a + b
+const greet = (name, isUser) => {
+  if(isUser){
+    return `hello ${name}`
+  }else{
+    return false
   }
-  export default sum
+
+  }
+  export default greet
